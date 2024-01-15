@@ -104,31 +104,7 @@ nav ul a {
 }
 
 
-/* responsiv  */
 
-@media screen and (max-width: 576px) {
-    header {
-        padding: 10px;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-}
-
-/* tablet or medium device */
-
-@media screen and (min-width: 576px) and (max-width: 960px) {
-
-    nav {
-        flex-direction: column;
-    }
-
-    header {
-        padding: 50px;
-    }
-}
 
 /* main section style */
 
@@ -176,4 +152,32 @@ main {
 .teams-description {
     color: #727272;
     font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+/* responsiv  */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+}
+
+/* tablet or medium device */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 50px;
+    }
 }
