@@ -21,6 +21,24 @@
     border: 0;
 }
 
+.light-gray-color {
+    color: #727272;
+
+}
+
+.section-title {
+
+    color: #131313;
+
+
+    font-size: 3rem;
+
+    font-weight: 700;
+
+}
+
+
+
 
 
 /* header styles */
@@ -31,16 +49,7 @@ header {
 
 }
 
-.header-title {
 
-    color: var(--Dark-01, #131313);
-
-
-    font-size: 3rem;
-
-    font-weight: 700;
-
-}
 
 nav {
     display: flex;
@@ -174,11 +183,12 @@ main {
         grid-template-columns: 1fr;
 
     }
+
     .teams-content {
         padding-right: 2px;
         padding-left: 20px;
     }
-    
+
 
 }
 
