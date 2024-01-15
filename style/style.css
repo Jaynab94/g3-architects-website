@@ -164,6 +164,59 @@ main {
     margin-bottom: 30px;
 }
 
+/* feature section design */
+
+.features-section {
+    margin-top: 130px;
+    display: flex;
+    gap: 150px;
+
+}
+
+.features-section .section-title {
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+
+
+}
+
+.feature-container .card {
+    padding: 30px;
+    margin-top: 20px;
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.ten-years-badge {
+    text-align: center;
+    padding: 40px;
+    color: #FFF;
+
+    border-radius: 8px;
+    background: #FF900E;
+    width: 340px;
+}
+
+.ten-years-badge h1 {
+
+font-size: 4rem;
+
+font-weight: 700;
+}
+
+.ten-years-badge p{
+
+font-size: 1.5rem;
+
+font-weight: 500;
+
+}
+
+
 
 /* some facts section style */
 
