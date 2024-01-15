@@ -168,6 +168,11 @@ main {
     font-weight: 700;
 }
 
+.teams-title {
+    color:  #131313;
+    font-weight: 700;
+}
+
 .teams-description {
     color: #727272;
     font-weight: 400;
